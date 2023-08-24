@@ -1,22 +1,28 @@
 {
-  "intro": "Hej",
+  "intro": "Welcome!",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
+    "src": "../../images/john-webpage-personal-photo-2.png",
+    "alt": "The dashingly handsome John in the wild."
   },
   "image": {
-    "src": "../../images/waving-hand.png",
-    "alt": "Waving Hand Emoji"
+    "src": "",
+    "alt": ""
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm John. I'm a web developer and software engineer.",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "I also teach new programmers to write ",
+    "highlight": "clean, correct, and concise",
+    "suffix": " code."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "This site is where you'll find information about my skills, the technologies I use, and how I work and teach.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": [
+      "LinkedIn",
+      "Medium",
+      "Github",
+      "Mail",
+      "Mastodon"
+    ],
+    "showIcons": true
   }
 }

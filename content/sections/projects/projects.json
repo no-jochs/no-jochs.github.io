@@ -2,47 +2,98 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "MyWebRoom Inc.",
+      "title": "2015-2017 • Engineering Lead",
+      "description": "Working across the stack, at MyWebRoom my responsibilities ranged from developing client-side features in React.js, to writing new API endpoints in Rails, optimizing and modifying database schemas, and building/maintaining micro-services. I was also responsible for operations by monitoring platform performance and assuring compatibility with third-party service integrations in addition to support tasks like responding to critical application errors. Other occasional tasks included: writing and updating tests and documentation for new features or refactoring efforts, writing and presenting assessments of feasibility and time horizons for prospective application changes, performing non-breaking updates for application dependencies, coordinating development activity between frontend and backend teams as well as non-technical stakeholders.",
+      "tags": [
+        "Full-Stack",
+        "Microservices",
+        "Social Media",
+        "VR",
+        "React",
+        "Rails"
+      ],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/mwr-logo.png",
+        "alt": "MyWebRoom Logo"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://craft.co/mywebroom"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Swell Investing, LLC",
+      "title": "2017-2018 • Software Engineer",
+      "description": "At Swell, I worked in the FinTech space on a innovative platform which sought to bring impact investing to the everyday investor by offering managed portfolios representing companies filtered by Swell's stringent ERG expectations. I engaged with a small team of engineers in a collaborative atmosphere that encouraged a pair-programming approach; a process that fostered the development of strong communication skills. Swell offered me an opportunity to experience a slightly different flavor of non-dogmatic agile methodology and taught me the value of effective collaboration between engineers and non-technical stakeholders (and designers in particular).\nRoutine tasks involved developing services for our Rails backend, working on clientside features in React and Redux, as well as writing the tests and technical documentation required to assure sustainable results.",
+      "tags": [
+        "Full-Stack",
+        "FinTech",
+        "Rails",
+        "Heroku",
+        "React"
+      ],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/swell-logo.jpeg",
+        "alt": "Swell Investing Logo"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "external",
+          "url": "https://www.swellinvesting.com"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Sweetgreen Inc.",
+      "title": "2019-2010 • Software Engineer III",
+      "description": "I worked in a variety of roles and in various domains at Sweetgreen. Initially, I worked on the digital aspects of what was termed \"Sweetgreen 3.0\", which was designed to be an enhanced customer experience intended to better serve customers and increase customer throughput. This entailed working with software and hardware for the 3.0 in-store kiosk we were prototyping, which would allow customers to order in-store without employee assistance.\nSubsequently, I became a key member of the Menu domain, which dealt with all the considerations of a customer's order and the food (and customizations) that we served them. We worked on a \"Collections\" feature, which gave users subsets of products to consider based on a particular themes. On the day it launched, we saw our largest grossing day of ~$800k+ in large part because of our efforts.\nMost recently I found myself working where business demands were most pressing: our Customer Relations Platform (CRP). It was our charge to hand-roll an authentication microservice, entitlements microservice, and promotions microservice. All these new services were developed using the burgeoning technology of Serverless (based on AWS Lambda).",
+      "tags": [
+        "Custom Sections",
+        "Easy-2-Use"
+      ],
+      "image": {
+        "src": "../../images/sg-logo.png",
+        "alt": "Sweetgreen Logo"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.sweetgreen.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Group Greeting",
+      "title": "2021 • Senior Software Engineer",
+      "description": "At GroupGreeting, I experienced first hand the challenging development problems resulting from a product developed in a startup environment where development was impeeded by siloed knowledge of the application's idiosyncracies and design patterns. I instituted regular changelog updates which improved awareness of application changes throughout the company and also developed a detailed plan for transitioning to a frontend javascript framework, switching over to a continuous integration paradigm, and endeavored to cultivate a process whereby all code additons could only be merged if covered by automated tests.",
+      "tags": [
+        "Rails",
+        "Full-Stack",
+        "Startup",
+        "Tech Debt",
+        "Process"
+      ],
+      "image": {
+        "src": "../../images/gg-logo.png",
+        "alt": "GroupGreeting Logo"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.groupgreeting.com"
         }
       ]
     }
   ],
   "button": {
-    "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "visible": false,
+    "label": "",
+    "url": ""
   }
 }

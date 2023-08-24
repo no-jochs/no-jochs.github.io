@@ -1,13 +1,35 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "name": "John Ochs",
+  "email": "john@johnochs.io",
+  "description": "Please use the contact information provided here to connect with me concerning...",
+  "contact_reasons": [
+    {
+      "reason": "Full-time engineering/development positions."
+    },
+    {
+      "reason": "Freelance/Contract opportunities."
+    },
+    {
+      "reason": "Getting a brandnew project, website, or web-app off the ground."
+    },
+    {
+      "reason": "Consulting and data-driven strategies to improve bootcamp outcomes."
+    },
+    {
+      "reason": "My curriculum on technical interviewing skills and finding your first job in tech!"
+    }
+  ],
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/jho-headshot-2015.jpg",
+    "alt": "John Ochs logo."
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": [
+      "LinkedIn",
+      "Instagram",
+      "Mail",
+      "Mastodon"
+    ],
     "showIcons": true
   }
 }

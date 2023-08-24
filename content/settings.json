@@ -1,29 +1,31 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "siteUrl": "https://johnochs.io",
+    "title": "John Ochs • Home",
+    "titleTemplate": "JO • %s",
+    "description": "The professional home of programmer and educator John Ochs",
+    "author": "John Ochs",
+    "avatar": "../content/images/joorbitlogo.png",
+    "bio": "John Ochs is a professional web developer and software engineer. He also coaches new developers to make the maximize their effectiveness by cultivating confidence in the domains of technical design, analysis, and implementation.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/no-jochs",
+      "medium": "https://read.johnochs.io",
+      "linkedin": "https://www.linkedin.com/in/johnochs/",
+      "mastodon": "@john@sangha.social",
+      "mail": "mailto:john@johnochs.io",
+      "instagram": "@no_jochs"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "<john.ochs/>" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "About", "url": "/about" },
+        { "label": "Experience", "url": "/experience" },
+        { "label": "Teaching", "url": "/teaching" },
+        { "label": "Medium", "url": "https://read.johnochs.io" },
+        { "label": "Contact", "url": "/contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
@@ -37,8 +39,9 @@
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": true,
+      "useDarkModeBasedOnUsersPreference": false,
       "useCookieBar": false
-    }
+    },
+    "trailingSlash": "never"
   }
 }
