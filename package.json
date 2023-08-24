@@ -13,9 +13,12 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-react-helmet": "^6.11.0",
     "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
@@ -39,5 +42,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.6"
+  }
 }
