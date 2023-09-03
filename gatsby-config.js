@@ -48,6 +48,10 @@ module.exports = {
             name: `La Belle Aurore`,
             file: `https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap`,
           },
+          {
+            name: `Yuji Boku`,
+            file: `https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swapp`,
+          },
         ],
       },
     },

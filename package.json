@@ -12,13 +12,18 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.0.1",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-react-helmet": "^6.11.0",
+    "gatsby-plugin-styled-components": "^6.12.0",
     "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.10.1",
+    "styled-components": "^6.0.7"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
