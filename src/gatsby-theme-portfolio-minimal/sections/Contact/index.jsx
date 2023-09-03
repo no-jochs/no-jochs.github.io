@@ -4,6 +4,7 @@ import { Animation } from "gatsby-theme-portfolio-minimal/src/components/Animati
 import { Section } from "gatsby-theme-portfolio-minimal/src/components/Section";
 import { SocialProfiles } from "gatsby-theme-portfolio-minimal/src/components/SocialProfiles";
 import { useLocalDataSource } from "gatsby-theme-portfolio-minimal/src/sections/Contact/data";
+import { BsDownload } from "@react-icons/all-files/bs/BsDownload";
 import * as classes from "./style.module.css";
 
 export function ContactSection(props) {
@@ -56,8 +57,49 @@ export function ContactSection(props) {
             showIcon={data.socialProfiles.showIcons}
           />
         )}
-        <h3>Public Keys</h3>
-        <h4>john@johnochs.io</h4>
+        <h3>Cryptographic Keys</h3>
+        <table>
+          <caption>PGP Key Details</caption>
+          <colgroup>
+            <col span="1" className="userId" />
+            <col span="2" className={classes.UserDetails} />
+            <col span="1" className={classes.expireCol} />
+            <col span="1" align="center" className={classes.keyDownload} />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">User ID</th>
+              <th scope="col">Key ID</th>
+              <th scope="col">Key Type</th>
+              <th scope="col">Expires</th>
+              <th scope="col" className={classes.keyDownload}>
+                Download
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="row">
+              <td className="userId">john@johnochs.io</td>
+              <td className="gpg-detail">0x8A59670E</td>
+              <td className="gpg-detail">ED25519</td>
+              <td className="gpg-detail">2024-08-24 00:00:00 UTC</td>
+              <td align="center">
+                <a
+                  href="../../../../static/publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc"
+                  download={`publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc`}
+                >
+                  <BsDownload />
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {/* <h4>
+          john@johnochs.io •
+          <span className="mono-span">
+            63CAA039FB9142ECEDBA5D6994FCF6F8FCE3D854
+          </span>
+        </h4>
         <code>
           -----BEGIN PGP PUBLIC KEY BLOCK-----
           mDMEZJvSEBYJKwYBBAHaRw8BAQdAxYq4lyuQd1o1NiNqTLwQ6PpCzKzPNgbDtBsT
@@ -72,7 +114,12 @@ export function ContactSection(props) {
           BLOCK-----
         </code>
         <br />
-        <h4>code@johnochs.io</h4>
+        <h4>
+          code@johnochs.io •
+          <span className="mono-span">
+            6EE978D05852623735E50B283FEF3B938A59670E
+          </span>
+        </h4>
         <code>
           -----BEGIN PGP PUBLIC KEY BLOCK-----
           mDMEZOeu6xYJKwYBBAHaRw8BAQdAAMIV0nR5GQu3NWao/qW3IdqoGN8jcKpD66ue
@@ -85,7 +132,7 @@ export function ContactSection(props) {
           O5OKWWcOpaQBAPZ/zW/kCS4bIPYeobeLPiEwfkhvWRATes9LtqchqThTAQDzPPmZ
           ONM2bizmT/ymjueTAAbs0kR0bp/8OebHikdtDA== =/XZn -----END PGP PUBLIC KEY
           BLOCK-----
-        </code>
+        </code> */}
       </Section>
     </Animation>
   );
