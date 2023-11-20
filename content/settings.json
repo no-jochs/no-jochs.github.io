@@ -30,7 +30,7 @@
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/john-ochs_resume.pdf"
+        "url": "https://cdn.johnochs.io/downloads/john_ochs-resume.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
