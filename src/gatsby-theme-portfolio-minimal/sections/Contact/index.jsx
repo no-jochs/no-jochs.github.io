@@ -80,7 +80,7 @@ export function ContactSection(props) {
               <td className="gpg-detail">2024-09-02</td>
               <td align="center">
                 <a
-                  href="../../../../static/publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc"
+                  href="/publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc"
                   download={`publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc`}
                 >
                   <BsDownload />
@@ -94,7 +94,7 @@ export function ContactSection(props) {
               <td className="gpg-detail">Never</td>
               <td align="center">
                 <a
-                  href="../../../../static/publickey.code@johnochs.io-6ee978d05852623735e50b283fef3b938a59670e.asc"
+                  href="/publickey.code@johnochs.io-6ee978d05852623735e50b283fef3b938a59670e.asc"
                   download={`publickey.code@johnochs.io-6ee978d05852623735e50b283fef3b938a59670e.asc`}
                 >
                   <BsDownload />

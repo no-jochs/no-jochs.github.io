@@ -30,7 +30,7 @@
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/John_Ochs-Resume_2023.pdf"
+        "url": "/john-ochs_resume.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },

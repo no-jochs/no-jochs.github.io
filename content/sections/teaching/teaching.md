@@ -1,6 +1,6 @@
 ---
 imageSrc: "../../images/teaching-sidebar.png"
-imageAlt: "Editing code in Visual Studio"
+imageAlt: "An ERD Diagram."
 ---
 
 I can help you grow your knowledge and confidence with mathematics, the physical sciences, computer science, and software development! I graduated from the College of Engineering at Cornell University. My relevant studies ranged from physical sciences like physics and chemistry to operations research, information engineering, and all the mathematics that these disciplines depend on (calculus, differential equations, linear algebra, and statistics). I am available to tutor you in any of these topics, or to assist you in your technical project!
