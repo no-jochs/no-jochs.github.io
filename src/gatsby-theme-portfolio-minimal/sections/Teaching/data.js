@@ -18,7 +18,6 @@
 // };
 
 import { graphql, useStaticQuery } from "gatsby";
-import { IGatsbyImageData } from "gatsby-plugin-image";
 
 export const useLocalDataSource = () => {
   return useStaticQuery(graphql`
