@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+        siteUrl: "http://localhost:8000", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/favicon.png", // Path is relative to the root
           siteName: "My Minimal Portfolio", // Used in manifest.json
@@ -13,7 +13,7 @@ module.exports = {
           themeColor: "#000000", // Used in manifest.json
           display: "minimal-ui", // Used in manifest.json
         },
-        contentDirectory: "./content",
+        // contentDirectory: "./content",
         // blogSettings: {
         //   entityName: "",
         //   path: "", // Defines the slug for the blog listing page

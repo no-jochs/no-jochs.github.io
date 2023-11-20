@@ -8,7 +8,12 @@ export const useLocalDataSource = () => {
       ) {
         sections: nodes {
           frontmatter {
-            videoSrcURL
+            imageAlt
+            imageSrc {
+              childImageSharp {
+                gatsbyImageData(width: 400)
+              }
+            }
           }
           html
         }

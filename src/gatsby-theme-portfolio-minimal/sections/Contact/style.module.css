@@ -51,6 +51,9 @@
   color: white;
 }
 
+table {
+  border: 2px solid #444;
+}
 table th {
   align-items: center;
 }

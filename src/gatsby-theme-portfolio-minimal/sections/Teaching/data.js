@@ -1,4 +1,24 @@
+// import { graphql, useStaticQuery } from "gatsby";
+
+// export const useLocalDataSource = () => {
+//   return useStaticQuery(graphql`
+//     query TeachingSectionQuery {
+//       allTeachingMarkdown: allMarkdownRemark(
+//         filter: { fileAbsolutePath: { regex: "/sections/teaching/" } }
+//       ) {
+//         sections: nodes {
+//           frontmatter {
+//             videoSrcURL
+//           }
+//           html
+//         }
+//       }
+//     }
+//   `);
+// };
+
 import { graphql, useStaticQuery } from "gatsby";
+import { IGatsbyImageData } from "gatsby-plugin-image";
 
 export const useLocalDataSource = () => {
   return useStaticQuery(graphql`
@@ -8,7 +28,12 @@ export const useLocalDataSource = () => {
       ) {
         sections: nodes {
           frontmatter {
-            videoSrcURL
+            imageAlt
+            imageSrc {
+              childImageSharp {
+                gatsbyImageData(width: 400)
+              }
+            }
           }
           html
         }

@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <Layout seoTitle="Contact">
       <Page useSplashScreenAnimation>
-        <ContactSection sectionId="contact-section" />
+        <ContactSection heading="Contact" sectionId="contact-section" />
       </Page>
     </Layout>
   );

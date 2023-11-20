@@ -16,7 +16,7 @@
 }
 
 .Teaching .Image {
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius) 2px 2px var(--border-radius);
   box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
   filter: grayscale(20%) contrast(1) brightness(90%);
 }
