@@ -1,33 +1,16 @@
 {
-  "name": "John Ochs",
+  "name": "Gatsby Starter For Portfolio Minimal",
   "email": "john@johnochs.io",
-  "phone": "(805) 368-9779",
-  "description": "Please use the contact information provided here to connect with me concerning...",
-  "contact_reasons": [
-    {
-      "reason": "Full-time engineering/development positions."
-    },
-    {
-      "reason": "Freelance/Contract opportunities."
-    },
-    {
-      "reason": "Getting a brand new project, website, or web application off the ground."
-    },
-    {
-      "reason": "Consulting and data-driven strategies to improve bootcamp outcomes."
-    },
-    {
-      "reason": "My curriculum on technical interviewing skills and finding your first job in tech."
-    }
-  ],
+  "description": "Please get in touch with me if you are in need of web development services, if you have other professional opportunities you would like to discuss, or if you are a student who needs help!",
   "image": {
     "src": "../../images/jho-headshot-2015.jpg",
-    "alt": "John Ochs logo."
+    "alt": "John Ochs headshot."
   },
   "socialProfiles": {
     "from": [
       "LinkedIn",
-      "Instagram",
+      "Medium",
+      "Github",
       "Mail",
       "Mastodon"
     ],
