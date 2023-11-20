@@ -32,21 +32,5 @@
       "Mastodon"
     ],
     "showIcons": true
-  },
-  "cryptographicKeys": [
-    {
-      "user": "john@johnochs.io",
-      "keyId": "0xFCE3D854",
-      "type": "ED25519",
-      "expires": "2024-09-02",
-      "path": "/static/publickey.john@johnochs.io-63caa039fb9142ecedba5d6994fcf6f8fce3d854.asc"
-    },
-    {
-      "user": "code@johnochs.io",
-      "keyId": "0x8A59670E",
-      "type": "ED25519",
-      "expires": "2024-09-02",
-      "path": "/static/publickey.code@johnochs.io-6ee978d05852623735e50b283fef3b938a59670e.asc"
-    }
-  ]
+  }
 }
