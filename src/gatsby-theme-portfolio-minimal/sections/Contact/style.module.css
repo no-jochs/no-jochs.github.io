@@ -51,9 +51,11 @@
   color: white;
 }
 
-table {
+table td,
+th {
   border: 2px solid #444;
 }
+
 table th {
   align-items: center;
 }
@@ -61,6 +63,7 @@ table th {
 table tr {
   width: auto;
   align-content: center;
+  border-top: 1px solid #888;
 }
 
 tbody {
