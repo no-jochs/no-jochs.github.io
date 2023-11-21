@@ -33,42 +33,13 @@
   font-weight: 700;
 }
 
-.UserDetails {
-  background-color: lightblue;
-}
-
-.expireCol {
-  background-color: lightsalmon;
-}
-
-.keyDownload {
-  background-color: black;
-  color: white;
-  align-items: center;
-}
-
-.keyDownload > * {
-  color: white;
-}
-
-table th td {
-  align-items: center;
-  border: 2px solid #444;
-}
-
-table tr {
-  width: auto;
-  align-content: center;
-  border-top: 1px solid #888;
-}
-
-tbody {
-  .userId {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+.SlideContainer {
+  overflow-x: hidden;
 }
 @media (min-width: 768px) {
+  .Contact * {
+    overflow: hidden;
+  }
   .Contact .Profile {
     flex-direction: row;
     align-items: center;

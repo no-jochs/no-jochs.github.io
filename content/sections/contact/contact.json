@@ -1,10 +1,10 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
+  "name": "John Ochs • Software Engineer & Educator",
   "email": "john@johnochs.io",
-  "description": "Please get in touch with me if you are in need of web development services, if you have other professional opportunities you would like to discuss, or if you are a student who needs help!",
+  "description": "Please feel free to reach out to me if you are in need of engineering or web development services, or if you have other professional inqueries. If you would like to reach me by phone, please use the link in the header to download my resume which has additional contact information. I am also available happy to assist students seekin instruction in most technical disciplines; especially current or recently graduated bootcamp students who need help assimilating their curriculum, or building the knowledge and confidence necessary to start the interviewing process.",
   "image": {
     "src": "../../images/jho-headshot-2015.jpg",
-    "alt": "John Ochs headshot."
+    "alt": "John Ochs"
   },
   "socialProfiles": {
     "from": [
