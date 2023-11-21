@@ -1,5 +1,5 @@
 ---
-imageSrc: "../../images/about-sidebar-2.png"
+imageSrc: "../../images/about-sidebar.png"
 imageAlt: "Editing code in Visual Studio"
 ---
 

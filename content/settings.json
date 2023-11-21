@@ -14,7 +14,7 @@
       "linkedin": "https://www.linkedin.com/in/johnochs/",
       "mastodon": "https://mastodon.sangha.social/@john",
       "mail": "mailto:john@johnochs.io",
-      "instagram": "@no_jochs"
+      "instagram": "https://www.instagram.com/no_jochs"
     }
   },
   "siteConfiguration": {
@@ -32,14 +32,11 @@
         "label": "Resume",
         "url": "https://cdn.johnochs.io/downloads/john_ochs-resume.pdf"
       },
-      "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
-      ]
+      "footer": [{ "label": "Privacy", "url": "/privacy" }]
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": false,
+      "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     },
     "trailingSlash": "never"
