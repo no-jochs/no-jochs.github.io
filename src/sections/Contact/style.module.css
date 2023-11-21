@@ -33,9 +33,6 @@
   font-weight: 700;
 }
 
-.SlideContainer {
-  overflow-x: hidden;
-}
 @media (min-width: 768px) {
   .Contact .Profile {
     flex-direction: row;

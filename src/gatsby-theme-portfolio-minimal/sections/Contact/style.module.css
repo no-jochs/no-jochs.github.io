@@ -33,9 +33,10 @@
   font-weight: 700;
 }
 
-.SlideContainer {
-  overflow-x: hidden;
+.Contact div {
+  overflow: hidden;
 }
+
 @media (min-width: 768px) {
   .Contact * {
     overflow: hidden;
