@@ -53,8 +53,12 @@
       "title": "2019-2010 • Software Engineer III",
       "description": "I worked in a variety of roles and in various domains at Sweetgreen. Initially, I worked on the digital aspects of what was termed \"Sweetgreen 3.0\", which was designed to be an enhanced customer experience intended to better serve customers and increase customer throughput. This entailed working with software and hardware for the 3.0 in-store kiosk we were prototyping, which would allow customers to order in-store without employee assistance.\nSubsequently, I became a key member of the Menu domain, which dealt with all the considerations of a customer's order and the food (and customizations) that we served them. We worked on a \"Collections\" feature, which gave users subsets of products to consider based on a particular themes. On the day it launched, we saw our largest grossing day of ~$800k+ in large part because of our efforts.\nMost recently I found myself working where business demands were most pressing: our Customer Relations Platform (CRP). It was our charge to hand-roll an authentication microservice, entitlements microservice, and promotions microservice. All these new services were developed using the burgeoning technology of Serverless (based on AWS Lambda).",
       "tags": [
-        "Custom Sections",
-        "Easy-2-Use"
+        "Full-Stack",
+        "Rails",
+        "Node",
+        "Microservices",
+        "Serverless",
+        "AWS"
       ],
       "image": {
         "src": "../../images/sg-logo.png",
