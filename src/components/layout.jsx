@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 export default function Layout({ seoTitle, children }) {
   return (
     <>
+      <Helmet></Helmet>
       <Seo title={seoTitle} useTitleTemplate={true} noIndex={false} />
       {children}
     </>

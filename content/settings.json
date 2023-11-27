@@ -25,7 +25,7 @@
         { "label": "About", "url": "/about" },
         { "label": "Experience", "url": "/experience" },
         { "label": "Teaching", "url": "/teaching" },
-        { "label": "Medium", "url": "https://read.johnochs.io" },
+        { "label": "Blog", "url": "https://read.johnochs.io" },
         { "label": "Contact", "url": "/contact" }
       ],
       "ctaButton": {
