@@ -4,9 +4,9 @@
     "siteUrl": "https://johnochs.io",
     "title": "John Ochs • Home",
     "titleTemplate": "JO • %s",
-    "description": "The professional home of programmer and educator John Ochs",
+    "description": "The professional home of engineer and educator John Ochs.",
     "author": "John Ochs",
-    "avatar": "../content/images/joorbitlogo.png",
+    "avatar": "https://cdn.johnochs.io/images/jo-orbit-logo-sqr410.png",
     "bio": "John Ochs is a professional web developer and software engineer. He also coaches new developers to make the maximize their effectiveness by cultivating confidence in the domains of technical design, analysis, and implementation.",
     "social": {
       "github": "https://github.com/no-jochs",
@@ -14,7 +14,8 @@
       "linkedin": "https://www.linkedin.com/in/johnochs/",
       "mastodon": "https://mastodon.sangha.social/@john",
       "mail": "mailto:john@johnochs.io",
-      "instagram": "https://www.instagram.com/no_jochs"
+      "instagram": "https://www.instagram.com/no_jochs",
+      "twitter": "https://twitter.com/johnochs"
     }
   },
   "siteConfiguration": {

@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 
 export default function AboutPage() {
   return (
-    <Layout seoTitle="About">
+    <Layout seoTitle="About" noIndex={false} useTitleTemplate={true}>
       <Page>
         <AboutSection sectionId="about" heading="About" />
       </Page>

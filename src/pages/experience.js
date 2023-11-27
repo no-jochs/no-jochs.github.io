@@ -5,10 +5,14 @@ import Layout from "../components/layout";
 
 export default function ExperiencePage() {
   return (
-    <Layout seoTitle="Experience">
+    <Layout
+      seoTitle="Professional Experience"
+      noIndex={false}
+      useTitleTemplate={true}
+    >
       <Page>
         <ProjectsSection
-          sectionId="experience-section"
+          sectionId="experience"
           heading="Professional Experience"
         />
       </Page>

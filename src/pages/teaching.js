@@ -5,9 +5,9 @@ import Layout from "../components/layout";
 
 export default function TeachingPage() {
   return (
-    <Layout seoTitle="Home">
+    <Layout seoTitle="Teaching" noIndex={false} userTitleTemplate={true}>
       <Page useSplashScreenAnimation>
-        <TeachingSection sectionId="hero" heading="Teaching" />
+        <TeachingSection sectionId="teaching" heading="Teaching" />
       </Page>
     </Layout>
   );

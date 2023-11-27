@@ -4,9 +4,13 @@ import Layout from "../components/layout";
 
 export default function ContactPage() {
   return (
-    <Layout seoTitle="Contact">
+    <Layout
+      seoTitle="Contact Information"
+      noIndex={false}
+      useTitleTemplate={true}
+    >
       <Page useSplashScreenAnimation>
-        <ContactSection heading="Contact" sectionId="contact-section" />
+        <ContactSection heading="Contact Information" sectionId="contact" />
       </Page>
     </Layout>
   );

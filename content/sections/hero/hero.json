@@ -18,9 +18,11 @@
   "socialProfiles": {
     "from": [
       "LinkedIn",
-      "Medium",
       "Github",
       "Mail",
+      "Medium",
+      "Twitter",
+      "Instagram",
       "Mastodon"
     ],
     "showIcons": true
