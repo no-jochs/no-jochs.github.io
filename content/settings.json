@@ -10,12 +10,9 @@
     "bio": "John Ochs is a professional web developer and software engineer. He also coaches new developers to make the maximize their effectiveness by cultivating confidence in the domains of technical design, analysis, and implementation.",
     "social": {
       "github": "https://github.com/no-jochs",
-      "medium": "https://read.johnochs.io",
       "linkedin": "https://www.linkedin.com/in/johnochs/",
-      "mastodon": "https://mastodon.sangha.social/@john",
       "mail": "mailto:john@johnochs.io",
-      "instagram": "https://www.instagram.com/no_jochs",
-      "twitter": "https://twitter.com/johnochs"
+      "instagram": "https://www.instagram.com/no_jochs"
     }
   },
   "siteConfiguration": {
@@ -25,13 +22,12 @@
         { "label": "About", "url": "/about" },
         { "label": "Experience", "url": "/experience" },
         { "label": "Teaching", "url": "/teaching" },
-        { "label": "Blog", "url": "https://read.johnochs.io" },
         { "label": "Contact", "url": "/contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "https://cdn.johnochs.io/downloads/john_ochs-resume.pdf"
+        "url": "https://drive.proton.me/urls/CRDJEM4JJW#8dUeHHBkeg1K"
       },
       "footer": [{ "label": "Privacy", "url": "/privacy" }]
     },
